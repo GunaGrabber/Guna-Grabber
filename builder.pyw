@@ -410,7 +410,7 @@ class App(customtkinter.CTk):
         if config_match:
             config = config_match.group(0)
         else:
-            raise Exception("Could not find config in luna.py")
+            raise Exception("Could not find config in guna.py")
 
         copy_dict = copy.deepcopy(self.updated_dictionary)
         config_str = f"""__CONFIG__ = {repr(copy_dict)}"""
